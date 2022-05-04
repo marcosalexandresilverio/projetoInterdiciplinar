@@ -1,8 +1,8 @@
-<php?
-
-
+<?php
 ?>
 <!DOCTYPE html>
+<html>
+
 <head>
   <!-- Basic -->
   <meta charset="utf-8" />
@@ -15,7 +15,7 @@
   <meta name="author" content="" />
   <link rel="shortcut icon" href="images/favicon.png" type="">
 
-  <title> Burguer House </title>
+  <title> Burguer </title>
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
@@ -30,12 +30,16 @@
   <!-- Custom styles for this template -->
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
-  <!-- <link href="css/responsive.css" rel="stylesheet" /> -->
+  <!--<link href="css/responsive.css" rel="stylesheet" />--> 
+  <link href="css/styles.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      
+
 </head>
 
-<body>
-<div class="hero_area">
-<div class="hero_area">
+<body class="sub_page">
+
+  <div class="hero_area">
     <div class="bg-box">
       <img src="images/hamburguer.jpg" alt="">
     </div>
@@ -64,7 +68,7 @@
               <li class="nav-item active">
                 <a class="nav-link" href="pedidos.php">Meus pedidos</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item ">
                 <a class="nav-link" href="cadastro.php">Cadastre-se</a>
               </li>
             </ul>
@@ -88,14 +92,69 @@
     <!-- end header section -->
   </div>
   
+</br> 
+<div class="heading_container heading_center">
+        <h2>
+         Meus Pedidos
+        </h2>
+      </div>
 
-    <footer class="footer_section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 footer-col">
-            <div class="footer_contact">
-              <h4>
-              Desenvolvedores:
+      <table class="container" >
+        <thead >
+          <tr >
+              <th>Item:</th>
+              <th>Quantidade</th>
+              <th>Valor</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Gran Burguer King</td>
+            <td><input type="number" name="quant" id="quant" value="1"></td>
+            <td>R$35,00</td>
+          </tr>
+          <tr>
+          <td>Gran Burguer King</td>
+            <td><input type="number" name="quant" id="quant" value="1"></td>
+            <td>R$35,00</td>
+          </tr>
+          <tr>
+          <td>Gran Burguer King</td>
+            <td><input type="number" name="quant" id="quant" value="1"></td>
+            <td>R$35,00</td>
+          </tr>
+          <td>Gran Burguer King</td>
+            <td><input type="number" name="quant" id="quant" value="1"></td>
+            <td>R$35,00</td>
+            <tr>
+          <td>Gran Burguer King</td>
+            <td><input type="number" name="quant" id="quant" value="1"></td>
+            <td>R$35,00</td>
+          </tr>
+        </tbody>
+        <thead >
+          <tr >
+              <th></th>
+              <th>Quantidade total</th>
+              <th>Valor total</th>
+          </tr>
+        </thead>
+      </table>
+            
+</div>
+
+
+  
+  
+  <!-- footer section -->
+  <footer class="footer_section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 footer-col">
+          <div class="footer_contact">
+            <h4>
+            Desenvolvedores:
               </h4>
               <div class="contact_link_box">
                 <a href="https://br.linkedin.com/in/leonamknupp">
@@ -111,41 +170,41 @@
                 <a href="https://br.linkedin.com/in/flavianelopesferreira">
                   <span>
                     Flaviane Ferreira
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 footer-col">
-            <div class="footer_detail">
-              <a href="" class="footer-logo">
-                Burguer House
+                </span>
               </a>
-              <p>
-                A casa do hamburguer artesanal de</br> Poços de Caldas!
-              </p>
-              
             </div>
-          </div>
-          <div class="col-md-4 footer-col">
-            <h4>
-              Aberto todos os dias
-            </h4>
-            
-            <p>
-              Horario: 16:00 às 23:00
-            </p>
           </div>
         </div>
-        <div class="footer-info">
+        <div class="col-md-4 footer-col">
+          <div class="footer_detail">
+            <a href="" class="footer-logo">
+              Burguer House
+            </a>
+            <p>
+              A casa do hamburguer artesanal de</br> Poços de Caldas!
+            </p>
+            
+          </div>
+        </div>
+        <div class="col-md-4 footer-col">
+          <h4>
+            Aberto todos os dias
+          </h4>
+          
           <p>
-             <button id="btn1"><a href="https://portal.ifsuldeminas.edu.br/" target="_blank">If Sul de Minas</a></button><br><br>
-             <button id="btn-box"><a href="franqueado.html" target="_blank">Área do franqueado</a></button>
+            Horario: 16:00 às 23:00
           </p>
         </div>
       </div>
-    
+      <div class="footer-info">
+        <p>
+        <button id="btn1"><a href="https://portal.ifsuldeminas.edu.br/" target="_blank">If Sul de Minas</a></button><br><br>
+             <button id="btn-box"><a href="franqueado.html" target="_blank">Área do franqueado</a></button>
+        </p>
+      </div>
+    </div>
   
-  </body>
-  
-  </html>
+
+</body>
+
+</html>

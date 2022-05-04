@@ -93,10 +93,14 @@
   </div>
   
 </br> 
-  <h3><center>Cadastre-se</center></h3>
+<div class="heading_container heading_center">
+        <h2>
+          Cadastre-se
+        </h2>
+      </div>
 
 <div class="containers">
-  <form action="create.php" method="POST">
+  <form action="" method="POST">
   <div class="rows">
     <div class="cols-25">
     <i class="material-icons prefix">account_circle</i>
@@ -145,7 +149,7 @@
   <div class="rows">
     <div class="cols-25">
     <i class="material-icons prefix">password</i>
-      <label for="senho">Senha</label>
+      <label for="senha">Senha</label>
     </div>
     <div class="cols-75">
       <input type="password" id="senha" name="senha" placeholder="Digite uma senha..">

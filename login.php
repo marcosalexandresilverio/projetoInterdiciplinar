@@ -18,7 +18,8 @@
     <form class="form1" action="">
         <div class="card">
              <div class="card-top">
-             <h2 color="red"> Faça seu login</h2>
+           
+            <h2 color="red"> Faça seu login</h2>
         </div>
 
         <div class="card-group">

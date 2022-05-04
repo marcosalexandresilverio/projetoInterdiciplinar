@@ -102,7 +102,7 @@
                       Deliciosos sanduiches à sua espera!
                     </h1>
                     <p>
-                      Peça seu sanduiche no conforto so deu lar!!!
+                      Peça seu sanduiche no conforto do seu lar!!!
                     </p>
                     <div class="btn-box">
                       <a href="menu.html" class="btn1">

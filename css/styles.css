@@ -29,7 +29,18 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #45a049;
 }
-
+tr{
+  font-size: medium;
+  text-align: center;
+}
+table{
+  font-size: medium;
+  text-align: center;
+}
+th{
+  font-size: medium;
+  text-align: center;
+}
 .containers {
   border-radius: 5px;
   background-color: #f2f2f2;
